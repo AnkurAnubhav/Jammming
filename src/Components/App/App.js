@@ -9,59 +9,40 @@ function App() {
 
       const [searchResults, setSearchResults] = useState([
         {
-            name: 'One Day',
-            artist: 'G-Eazy',
-            album: 'Freak Show',
-            id: 1,
-            uri: 'https://open.spotify.com/track/0mo6L5y8olr6HtK8kTGfBh'
-        },
-        {
-            name: 'Lie',
-            artist: 'Sasha Alex Sloan',
-            album: 'Single',
-            id: 2,
-            uri: 'https://open.spotify.com/track/04NMWz4ctkuILV6mUR2iWp'
-        },
-        {
-            name: 'Mask Off',
-            artist: 'Future',
-            album: 'Future',
-            id: 3,
-            uri: 'https://open.spotify.com/track/0VgkVdmE4gld66l8iyGjgx'
-        },
-        {
-            name: 'Mask Offs',
-            artist: 'Futures',
-            album: 'Futures',
-            id: 4,
-            uri: 'https://open.spotify.com/track/0VgkVdmE4gld66l8iyGjgx'
-        }
+      name: "Example Track Name 1",
+      artist: "Example Track Artist 1",
+      album: "Example Track Album 1",
+      id: 1,
+    },
+    {
+      name: "Example Track Name 2",
+      artist: "Example Track Artist 2",
+      album: "Example Track Album 2",
+      id: 2,
+    },
       ]);
 
       const [playlistName, setPlaylistName] = useState("Example Name");
 
       const [playlistTracks, setPlaylistTracks] = useState([
         {
-            name: 'One Day',
-            artist: 'G-Eazy',
-            album: 'Freak Show',
-            id: 1,
-            uri: 'https://open.spotify.com/track/0mo6L5y8olr6HtK8kTGfBh'
-        },
-        {
-            name: 'Lie',
-            artist: 'Sasha Alex Sloan',
-            album: 'Single',
-            id: 2,
-            uri: 'https://open.spotify.com/track/04NMWz4ctkuILV6mUR2iWp'
-        },
-        {
-            name: 'Mask Off',
-            artist: 'Future',
-            album: 'Future',
-            id: 3,
-            uri: 'https://open.spotify.com/track/0VgkVdmE4gld66l8iyGjgx'
-        }
+      name: "Example Playlist Name 1",
+      artist: "Example Playlist Artist 1",
+      album: "Example Playlist Album 1",
+      id: 11,
+    },
+    {
+      name: "Example Playlist Name 2",
+      artist: "Example Playlist Artist 2",
+      album: "Example Playlist Album 2",
+      id: 22,
+    },
+    {
+      name: "Example Playlist Name 3",
+      artist: "Example Playlist Artist 3",
+      album: "Example Playlist Album 3",
+      id: 33,
+    },
       ]);
 
       function addTrack(track) {
